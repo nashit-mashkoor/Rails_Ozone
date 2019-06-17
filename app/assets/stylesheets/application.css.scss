@@ -1,0 +1,32 @@
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";
+
+.green {
+    background-color: rgb(9, 209, 9)
+
+}
+
+.yellow {
+    background-color: yellow
+
+}
+.orange {
+    background-color: orange
+
+}
+.red {
+    background-color: rgb(255, 34, 34)
+
+}
+.purple {
+    background-color: rgb(233, 14, 233)
+
+}
+.maroon {
+    background-color: maroon
+
+}
+.gray {
+    background-color: silver
+
+}

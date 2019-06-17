@@ -1,0 +1,10 @@
+<div class="jumbotron <%=@api_color%>" >
+    <h1 class="display-4"><%=@final_output%></h1>
+    <p class="lead">This is the current ozone air quality for zip code <%= @zip_query if @zip_query %></p>
+    <hr class="my-4"> 
+    <% if @api_description %>
+         <p><%=@api_description.html_safe%></p>
+    <% end %>
+</div>
+  <br/>
+  
