@@ -1,6 +1,5 @@
 class HomeController < ApplicationController
   def index
-  
     @zip_query = '20002'
     require 'net/http'
     require 'json'
